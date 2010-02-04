@@ -14,6 +14,7 @@ my $builder = Module::Build->new(
         'Carp' => '1.08', 
         'Math::Cephes' => '0.47', 
         'List::Util' => '1.19',
+        'Text::SimpleTable' => '2.0',
     },
     add_to_cleanup      => [ 'Statistics-MVA-BayesianDiscrimination-*' ],
 );

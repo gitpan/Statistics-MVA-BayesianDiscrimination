@@ -1,12 +1,12 @@
-Statistics-MVA-BayesianDiscrimination version 0.0.1
+Statistics-MVA-BayesianDiscrimination version 0.0.2
 
 Discriminant analysis is a procedure for classifying a set of observations each with k variables into predefined classes such as to allow the
 determination of the class of new observations based upon the values of the k variables for these new observations. Group membership based on linear combinations of the variables. From the set of observations where group membership is know the procedure constructs a set of linear functions, termed
 discriminant functions, such that: 
 
-    L = b_1 * x1 + b_2 * x2 +... ... + b_n * x_n - c
+    L = B[0] * x1 + B[1] * x1 +... ... + B[n] * x_n - c
 
-Where c is a constant, b's are discriminant coefficients and x's are the input variables. These discriminant functions
+Where B[0] is a constant, B[n's] are discriminant coefficients and x's are the input variables. These discriminant functions
 (there is one for each group - consequently as this module only analyses data for two groups atm it generates two such
 discriminant functions.
 
@@ -45,6 +45,7 @@ DEPENDENCIES
 'Carp' => '1.08', 
 'Math::Cephes' => '0.47', 
 'List::Util' => '1.19',
+'Text::SimpleTable' => '2.0',
 
 COPYRIGHT AND LICENCE
 

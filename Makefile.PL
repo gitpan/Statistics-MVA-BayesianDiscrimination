@@ -15,6 +15,7 @@ WriteMakefile(
         'Carp' => '1.08', 
         'Math::Cephes' => '0.47', 
         'List::Util' => '1.19',
+        'Text::SimpleTable' => '2.0',
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Statistics-MVA-BayesianDiscrimination-*' },

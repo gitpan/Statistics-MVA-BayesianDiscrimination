@@ -6,3 +6,4 @@ README
 lib/Statistics/MVA/BayesianDiscrimination.pm
 t/00.load.t
 t/pod.t
+META.yml
